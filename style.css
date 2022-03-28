@@ -1,0 +1,61 @@
+
+header {
+  font-family: 'Andale Mono', Serif;
+  font-size: 10px;
+  letter-spacing: 20px;
+  background: #DDBEA9;
+  margin: 10px;
+  padding: 1px;
+  text-align: center;
+  border-radius: 15px; 
+}
+
+h1 {
+  height: 5px;
+  color: #ffffff;
+  padding: 60px;
+}
+
+main {
+  text-align: center;
+  font-family: 'Andale Mono', Sans-Serif;
+  font-size: 15px;
+  background: #FFE8D6;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 50px;
+}
+
+footer {
+  font-family: 'Andale Mono', Serif;
+  color: #ffffff;
+  background: #DDBEA9;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 1px;
+}
+
+/* this is to round the edges of my image */
+.rounded {
+  border-radius: 10px;
+}
+
+.left {
+  text-align: left;
+}
+
+/* styling my horozontal rule */
+hr{
+  border: 2px solid white;
+}
+
+/* using pseudo-class for link styling*/
+a {
+  font-family: 'Andale Mono', sans-serif;
+  font-size: 20px;
+}
+a:link    { color: #ffffff; }
+a:visited { color: #ADFF2F; }
+a:hover   { color: #00FA9A; }
+a:active  { color: #9ACD32; }
+}
